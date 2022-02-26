@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html>
+    <head> <!-- Contiene todos los elementos no visuales de la pagina,metadatos, etc... -->
+      <meta charset="utf-8"/>
+        <title>Mi IMC</title>
+        <!-- <title/> Sirve para poner un titulo a tu pagina. El titulo es muy importante
+        ya que google le da mucha relevancia para que encuentren tu pagina en los navegadores -->
+        <style type="text/css"> /* <style/> Es utilizada para definir un codigo en CSS, se coloca dentro de head */
+        /* type="text/css" Esto es un atributo de la etiqueta */
+        body
+        {
+        background-color: #40959b;
+        /* background-color es el atributo que cambia el color de fondo de tu pagina */
+        color: white;
+        /* Color es el atributo que cambia el color del texto de tu pagina */
+        font-family:'Lucida Sans';
+        /* font-family es el atributo que cambia la fuente de tu pagina */
+        }
+        strong
+        {
+        background-color: #56787a;
+        /* Para ver el codigo hexagecimal del color que deseas escribe en google: #ffffff */
+        font-family:'Lucida Sans';
+        }         
+        </style>
+      </head>
+    <body> <!-- Contiene todos los elementos visuales de la pagina -->
+      <h1><p><strong>ÍNDICE DE MASA CORPORAL</strong></p></h1>
+      <!-- <strong/> sirve para poner negrita -->
+      <!-- <p/> es un parrafo, RECUERDA: Todos los textos en HTML deben estar envueltos
+      por etiquetas, la mas sencilla es <p/> -->
+     <h3><p>Ingresa tu peso actual (kg)</p></h3>
+      <input type="number" name="weight" id="weight"/><br />
+     <h3><p>Ingresa tu estatura (m)</p></h3> 
+      <input type="number" name="height" id="height"/><br />
+      <br />
+      <dd><button id="Calcular"> Calcular</button>
+      </dd>
+      <script  src="script.js"></script>
+    </body>
+  </html>
